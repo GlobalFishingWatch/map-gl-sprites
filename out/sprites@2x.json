@@ -1,0 +1,30 @@
+{
+  "encounter": {
+    "height": 24,
+    "pixelRatio": 2,
+    "width": 34,
+    "x": 28,
+    "y": 36
+  },
+  "gap": {
+    "height": 36,
+    "pixelRatio": 2,
+    "width": 34,
+    "x": 0,
+    "y": 0
+  },
+  "port": {
+    "height": 30,
+    "pixelRatio": 2,
+    "width": 30,
+    "x": 34,
+    "y": 0
+  },
+  "unregistered": {
+    "height": 28,
+    "pixelRatio": 2,
+    "width": 28,
+    "x": 0,
+    "y": 36
+  }
+}

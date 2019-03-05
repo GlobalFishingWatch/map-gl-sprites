@@ -10,7 +10,7 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "build": "spritezero ./out/sprites ./svg",
+    "build": "spritezero ./out/sprites ./svg && spritezero ./out/sprites@2x ./svg --retina",
     "sandbox": "http-server"
   },
   "devDependencies": {
