@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Display a map with a custom style</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+<script src="./accessToken.js"></script>
+<script>
+var style = {
+    "version": 8,
+    "name": "Blank",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:type": "template",
+        "mapbox:sdk-support": {
+            "js": "0.50.0",
+            "android": "6.7.0",
+            "ios": "4.6.0"
+        }
+    },
+    "center": [-25.921138327775225, 34.71397731361577],
+    "zoom": 2.439944972091529,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "mapbox://mapbox.satellite": {
+            "url": "mapbox://mapbox.satellite",
+            "type": "raster",
+            "tileSize": 256
+        },
+        "composite": {
+            "url": "mapbox://enriquetuya.cjs0b637m3q9a2ypdykkhbzjg-81z9x,enriquetuya.69gg7f69",
+            "type": "vector"
+        }
+    },
+    "sprite": "http://localhost:8080/out/sprites",
+    "glyphs": "mapbox://fonts/enriquetuya/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "background",
+            "type": "background",
+            "paint": {"background-color": "rgba(0,0,0,0)"}
+        },
+        {
+            "id": "mapbox-satellite",
+            "type": "raster",
+            "source": "mapbox://mapbox.satellite",
+            "layout": {},
+            "paint": {}
+        },
+        {
+            "id": "some-points (1)",
+            "type": "circle",
+            "source": "composite",
+            "source-layer": "some_points",
+            "layout": {"visibility": "none"},
+            "paint": {
+                "circle-color": "hsl(218, 82%, 61%)",
+                "circle-radius": 14,
+                "circle-stroke-color": "hsl(0, 100%, 100%)",
+                "circle-stroke-width": [
+                    "match",
+                    ["get", "id"],
+                    ["a", "b"],
+                    2,
+                    0
+                ]
+            }
+        },
+        {
+            "id": "some-points (2)",
+            "type": "circle",
+            "source": "composite",
+            "source-layer": "some_points",
+            "layout": {},
+            "paint": {
+                "circle-color": "hsl(0, 96%, 51%)",
+                "circle-radius": 15,
+                "circle-stroke-color": "hsl(142, 81%, 100%)",
+                "circle-stroke-width": [
+                    "match",
+                    ["get", "id"],
+                    ["b", "c"],
+                    4,
+                    0
+                ]
+            }
+        },
+        {
+            "id": "some-points",
+            "type": "symbol",
+            "metadata": {},
+            "source": "composite",
+            "source-layer": "some_points",
+            "layout": {
+                "icon-image": "port",
+                "icon-size": ["match", ["get", "id"], ["", "a", "b"], 1, 0]
+            },
+            "paint": {}
+        },
+    ],
+    "created": "2019-02-11T12:20:47.901Z",
+    "id": "cjs0b36v53a8q1fqtxhwb7380",
+    "modified": "2019-02-26T16:13:41.340Z",
+    "owner": "enriquetuya",
+    "visibility": "private",
+    "draft": false
+}
+
+mapboxgl.accessToken = window.accessToken;
+var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style,  
+    center: [-77.38, 39], // starting position
+    zoom: 3 // starting zoom
+});
+</script>
+
+</body>
+</html>

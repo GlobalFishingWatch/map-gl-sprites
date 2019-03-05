@@ -1,0 +1,19 @@
+{
+  "name": "map-sprites",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "spritezero-cli": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "build": "spritezero ./out/sprites ./svg",
+    "sandbox": "http-server"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
