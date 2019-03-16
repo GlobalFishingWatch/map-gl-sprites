@@ -19,15 +19,6 @@
 var style = {
     "version": 8,
     "name": "Blank",
-    "metadata": {
-        "mapbox:autocomposite": true,
-        "mapbox:type": "template",
-        "mapbox:sdk-support": {
-            "js": "0.50.0",
-            "android": "6.7.0",
-            "ios": "4.6.0"
-        }
-    },
     "center": [-25.921138327775225, 34.71397731361577],
     "zoom": 2.439944972091529,
     "bearing": 0,
@@ -39,12 +30,26 @@ var style = {
             "tileSize": 256
         },
         "composite": {
-            "url": "mapbox://enriquetuya.cjs0b637m3q9a2ypdykkhbzjg-81z9x,enriquetuya.69gg7f69",
-            "type": "vector"
+            "type": "geojson",
+            "data": {
+                "type": "FeatureCollection",
+                "features": [
+                    {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                        -29.53125,
+                        36.59788913307022
+                        ]
+                    }
+                    }
+                ]
+            }
         }
     },
     "sprite": "https://raw.githubusercontent.com/GlobalFishingWatch/map-sprites/master/out/sprites",
-    "glyphs": "mapbox://fonts/enriquetuya/{fontstack}/{range}.pbf",
     "layers": [
         {
             "id": "background",
@@ -59,41 +64,15 @@ var style = {
             "paint": {}
         },
         {
-            "id": "some-points (1)",
-            "type": "circle",
-            "source": "composite",
-            "source-layer": "some_points",
-            "layout": {"visibility": "none"},
-            "paint": {
-                "circle-color": "hsl(218, 82%, 61%)",
-                "circle-radius": 14,
-                "circle-stroke-color": "hsl(0, 100%, 100%)",
-                "circle-stroke-width": [
-                    "match",
-                    ["get", "id"],
-                    ["a", "b"],
-                    2,
-                    0
-                ]
-            }
-        },
-        {
             "id": "some-points (2)",
             "type": "circle",
             "source": "composite",
-            "source-layer": "some_points",
             "layout": {},
             "paint": {
                 "circle-color": "hsl(0, 96%, 51%)",
                 "circle-radius": 15,
                 "circle-stroke-color": "hsl(142, 81%, 100%)",
-                "circle-stroke-width": [
-                    "match",
-                    ["get", "id"],
-                    ["b", "c"],
-                    4,
-                    0
-                ]
+                "circle-stroke-width": 4
             }
         },
         {
@@ -101,10 +80,9 @@ var style = {
             "type": "symbol",
             "metadata": {},
             "source": "composite",
-            "source-layer": "some_points",
             "layout": {
                 "icon-image": "port",
-                "icon-size": ["match", ["get", "id"], ["", "a", "b"], 1, 0]
+                "icon-size": 1
             },
             "paint": {}
         },
