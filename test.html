@@ -47,7 +47,11 @@ var style = {
                     }
                 ]
             }
-        }
+        },
+        "events_encounter": {
+            "type": "vector",
+            "tiles": ["https://events-dot-world-fishing-827.appspot.com/datasets/indonesia/events/encounter/tiles/{z},{x},{y}"]
+            },
     },
     "sprite": "https://raw.githubusercontent.com/GlobalFishingWatch/map-sprites/master/out/sprites",
     "layers": [
@@ -86,6 +90,32 @@ var style = {
             },
             "paint": {}
         },
+        {
+            "id": "events_encounter",
+            "type": "circle",
+            "source": "events_encounter",
+            "source-layer": "default",
+            "layout": {},
+            "paint": {
+                "circle-color": "hsl(0, 96%, 51%)",
+                "circle-radius": 15,
+                "circle-stroke-color": "hsl(142, 81%, 100%)",
+                "circle-stroke-width": 4
+            }
+        },
+        {
+            "id": "events_encounter_icons",
+            "type": "symbol",
+            "metadata": {},
+            "source": "events_encounter",
+            "source-layer": "default",
+            "layout": {
+                "icon-image": "port",
+                "icon-size": 1,
+                "icon-allow-overlap": true
+            },
+            "paint": {}
+        }
     ],
     "created": "2019-02-11T12:20:47.901Z",
     "id": "cjs0b36v53a8q1fqtxhwb7380",
