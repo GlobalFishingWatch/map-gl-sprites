@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>encounter</title>
+    <desc>Created with Sketch.</desc>
+    <g id="desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vessel-Profile" transform="translate(-963.000000, -408.000000)" fill-rule="nonzero">
+            <g id="map" transform="translate(320.000000, 0.000000)">
+                <g id="encounter" transform="translate(644.000000, 409.000000)">
+                    <path d="M15.5,0 L15.5,0 C24.0604136,-1.57252247e-15 31,6.93958638 31,15.5 L31,15.5 C31,24.0604136 24.0604136,31 15.5,31 L15.5,31 C6.93958638,31 1.04834831e-15,24.0604136 0,15.5 L0,15.5 C-1.04834831e-15,6.93958638 6.93958638,1.57252247e-15 15.5,0 Z" id="Rectangle-13" stroke="#FFFFFF" stroke-width="2" fill="#E9667F"></path>
+                    <path d="M18.5,16.8203125 L15.1796875,13.5 L18.5,10.1796875 L18.5,12.6796875 L24.3203125,12.6796875 L24.3203125,14.3203125 L18.5,14.3203125 L18.5,16.8203125 Z M13.5,17.6796875 L13.5,15.1796875 L16.8203125,18.5 L13.5,21.8203125 L13.5,19.3203125 L7.6796875,19.3203125 L7.6796875,17.6796875 L13.5,17.6796875 Z" id="c" fill="#061B52"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

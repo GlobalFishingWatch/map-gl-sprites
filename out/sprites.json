@@ -3,6 +3,13 @@
     "height": 31,
     "pixelRatio": 1,
     "width": 31,
+    "x": 66,
+    "y": 0
+  },
+  "encounter_highlight": {
+    "height": 33,
+    "pixelRatio": 1,
+    "width": 33,
     "x": 0,
     "y": 0
   },
@@ -10,21 +17,42 @@
     "height": 31,
     "pixelRatio": 1,
     "width": 31,
-    "x": 31,
+    "x": 97,
+    "y": 0
+  },
+  "gap_highlight": {
+    "height": 33,
+    "pixelRatio": 1,
+    "width": 33,
+    "x": 33,
     "y": 0
   },
   "port": {
     "height": 31,
     "pixelRatio": 1,
     "width": 31,
+    "x": 66,
+    "y": 33
+  },
+  "port_highlight": {
+    "height": 33,
+    "pixelRatio": 1,
+    "width": 33,
     "x": 0,
-    "y": 31
+    "y": 33
   },
   "unregistered": {
     "height": 31,
     "pixelRatio": 1,
     "width": 31,
-    "x": 31,
-    "y": 31
+    "x": 97,
+    "y": 33
+  },
+  "unregistered_highlight": {
+    "height": 33,
+    "pixelRatio": 1,
+    "width": 33,
+    "x": 33,
+    "y": 33
   }
 }
