@@ -1,4 +1,18 @@
 {
+  "carrier_portal_encounter": {
+    "height": 13,
+    "pixelRatio": 1,
+    "width": 11,
+    "x": 13,
+    "y": 66
+  },
+  "carrier_portal_loitering": {
+    "height": 15,
+    "pixelRatio": 1,
+    "width": 13,
+    "x": 0,
+    "y": 66
+  },
   "encounter": {
     "height": 31,
     "pixelRatio": 1,
