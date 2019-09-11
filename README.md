@@ -4,7 +4,7 @@ Generates spritesheets that are necessary to display custom icons in the GFW Map
 
 ## Usage
 
-Install dependencies (`yarn install`). Use the node vesrion declared in package.json as bindings for Mapnik are not available for every node version, then run: 
+Install dependencies (`yarn install`). Use the node version declared in package.json as bindings for Mapnik are not available for every node version, then run:
 
 ```
 yarn run build

@@ -3,7 +3,7 @@
     "height": 13,
     "pixelRatio": 1,
     "width": 11,
-    "x": 13,
+    "x": 28,
     "y": 66
   },
   "carrier_portal_loitering": {
@@ -11,6 +11,13 @@
     "pixelRatio": 1,
     "width": 13,
     "x": 0,
+    "y": 66
+  },
+  "carrier_portal_port": {
+    "height": 15,
+    "pixelRatio": 1,
+    "width": 15,
+    "x": 13,
     "y": 66
   },
   "encounter": {
