@@ -12,7 +12,7 @@ yarn run build
 
 This will generate the PNG spritesheet as well as the JSON in `/out`.
 
-The resulting files must be accessible with an absolute URL as described here https://docs.mapbox.com/mapbox-gl-js/style-spec/#root-sprite, and then declared with the `sprite` root property of the GL JSON file, or use the `spritePath` property of the map module.
+The resulting files must be accessible with an absolute URL as described here https://docs.mapbox.com/mapbox-gl-js/style-spec/#root-sprite, and then declared with the `sprite` root property of the GL JSON file.
 
 You will then be able to use icons in layers, for instance:
 ```
