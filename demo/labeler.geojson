@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "fishing",
+        "value": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50,
+          30
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "selected",
+        "value": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48,
+          30
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "unlabeled",
+        "value": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46,
+          30
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "selected",
+        "value": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50,
+          28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "selected",
+        "value": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48,
+          28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "selected",
+        "value": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46,
+          28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "selected",
+        "value": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44,
+          28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "selected",
+        "value": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42,
+          28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "selected",
+        "value": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40,
+          28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "status": "selected",
+        "value": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38,
+          28
+        ]
+      }
+    }
+  ]
+}

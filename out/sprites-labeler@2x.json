@@ -1,0 +1,18 @@
+{
+  "arrow-inner": {
+    "height": 24,
+    "pixelRatio": 2,
+    "sdf": true,
+    "width": 24,
+    "x": 50,
+    "y": 0
+  },
+  "arrow-outer": {
+    "height": 50,
+    "pixelRatio": 2,
+    "sdf": true,
+    "width": 50,
+    "x": 0,
+    "y": 0
+  }
+}

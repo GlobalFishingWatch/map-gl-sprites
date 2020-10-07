@@ -3,17 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "dependencies": {
-    "@mapbox/spritezero-cli": "^2.1.0"
-  },
-  "engines": {
-    "node": "8.17.0"
-  },
   "scripts": {
-    "build": "spritezero ./out/sprites ./svg && spritezero ./out/sprites@2x ./svg --retina",
-    "sandbox": "http-server"
+    "build:main": "spritezero ./out/sprites ./svg/main && spritezero ./out/sprites@2x ./svg/main --retina",
+    "build:labeler": "spritezero --sdf ./out/sprites-labeler ./svg/labeler && spritezero --sdf ./out/sprites-labeler@2x ./svg/labeler --retina",
+    "build": "yarn build:main && yarn build:labeler",
+    "start": "live-server --no-browser --port=9091 --watch=demo"
   },
   "devDependencies": {
-    "http-server": "^0.11.1"
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "@elastic/spritezero-cli": "^3.0.0"
   }
 }

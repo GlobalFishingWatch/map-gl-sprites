@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basemap</title>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+<body style="padding: 0; margin: 0; font-family: Arial, Helvetica, sans-serif;">
+  <div id='map' style='width: 100vw; height: 100vh;'></div>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const renderMap = (style, geojson) => {
+      var styleWithGeoJSON = style
+      style.sources.geojson.data = geojson
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style,
+        center: [
+          -74.5,
+          40
+        ],
+        zoom: 1,
+        hash: true
+      });
+    }
+
+    fetch('./labeler.style.json').then(response => response.json()).then((style) => {
+      fetch('./labeler.geojson').then(response => response.json()).then((geojson) => {
+        renderMap(style, geojson)
+      })
+    })
+  </script>
+</body>
+</html>
