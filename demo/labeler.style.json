@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "sprite": "http://localhost:9091/out/sprites-labeler",
+  "sprite": "https://raw.githubusercontent.com/GlobalFishingWatch/map-gl-sprites/master/out/sprites-labeler",
   "sources": {
     "basemap_default": {
       "type": "vector",
