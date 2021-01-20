@@ -13,6 +13,6 @@
     "live-server": "^1.2.1"
   },
   "dependencies": {
-    "@elastic/spritezero-cli": "^3.0.0"
+    "@satellitestudio/spritezero-cli": "3.0.1"
   }
 }

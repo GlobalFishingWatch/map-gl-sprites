@@ -28,6 +28,7 @@
 
     fetch('./labeler.style.json').then(response => response.json()).then((style) => {
       fetch('./labeler.geojson').then(response => response.json()).then((geojson) => {
+        console.log(style)
         renderMap(style, geojson)
       })
     })
