@@ -3,21 +3,21 @@
     "height": 26,
     "pixelRatio": 2,
     "width": 22,
-    "x": 180,
+    "x": 56,
     "y": 132
   },
   "carrier_portal_loitering": {
     "height": 30,
     "pixelRatio": 2,
     "width": 26,
-    "x": 124,
+    "x": 0,
     "y": 132
   },
   "carrier_portal_port": {
     "height": 30,
     "pixelRatio": 2,
     "width": 30,
-    "x": 150,
+    "x": 26,
     "y": 132
   },
   "encounter": {
@@ -34,19 +34,12 @@
     "x": 0,
     "y": 0
   },
-  "fishing": {
+  "gap": {
     "height": 62,
     "pixelRatio": 2,
     "width": 62,
     "x": 194,
     "y": 0
-  },
-  "gap": {
-    "height": 62,
-    "pixelRatio": 2,
-    "width": 62,
-    "x": 132,
-    "y": 66
   },
   "gap_highlight": {
     "height": 66,
@@ -55,19 +48,12 @@
     "x": 66,
     "y": 0
   },
-  "loitering": {
-    "height": 62,
-    "pixelRatio": 2,
-    "width": 62,
-    "x": 194,
-    "y": 66
-  },
   "port": {
     "height": 62,
     "pixelRatio": 2,
     "width": 62,
-    "x": 0,
-    "y": 132
+    "x": 132,
+    "y": 66
   },
   "port_highlight": {
     "height": 66,
@@ -80,8 +66,8 @@
     "height": 62,
     "pixelRatio": 2,
     "width": 62,
-    "x": 62,
-    "y": 132
+    "x": 194,
+    "y": 66
   },
   "unregistered_highlight": {
     "height": 66,
