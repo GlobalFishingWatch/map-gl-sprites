@@ -3,22 +3,22 @@
     "height": 13,
     "pixelRatio": 1,
     "width": 11,
-    "x": 28,
-    "y": 66
+    "x": 59,
+    "y": 97
   },
   "carrier_portal_loitering": {
     "height": 15,
     "pixelRatio": 1,
     "width": 13,
-    "x": 0,
-    "y": 66
+    "x": 31,
+    "y": 97
   },
   "carrier_portal_port": {
     "height": 15,
     "pixelRatio": 1,
     "width": 15,
-    "x": 13,
-    "y": 66
+    "x": 44,
+    "y": 97
   },
   "encounter": {
     "height": 31,
@@ -75,5 +75,40 @@
     "width": 33,
     "x": 33,
     "y": 33
+  },
+  "vessel_viewer_encounter": {
+    "height": 31,
+    "pixelRatio": 1,
+    "width": 31,
+    "x": 0,
+    "y": 66
+  },
+  "vessel_viewer_fishing": {
+    "height": 31,
+    "pixelRatio": 1,
+    "width": 31,
+    "x": 31,
+    "y": 66
+  },
+  "vessel_viewer_gap": {
+    "height": 31,
+    "pixelRatio": 1,
+    "width": 31,
+    "x": 62,
+    "y": 66
+  },
+  "vessel_viewer_loitering": {
+    "height": 31,
+    "pixelRatio": 1,
+    "width": 31,
+    "x": 93,
+    "y": 66
+  },
+  "vessel_viewer_port": {
+    "height": 31,
+    "pixelRatio": 1,
+    "width": 31,
+    "x": 0,
+    "y": 97
   }
 }

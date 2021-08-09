@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>port</title>
+    <desc>Created with Sketch.</desc>
+    <g id="desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vessel-Profile" transform="translate(-681.000000, -75.000000)" fill-rule="nonzero">
+            <g id="map" transform="translate(320.000000, 0.000000)">
+                <g id="port" transform="translate(361.000000, 75.000000)">
+                    <path d="M15.5,0 L15.5,0 C24.0604136,-1.57252247e-15 31,6.93958638 31,15.5 L31,15.5 C31,24.0604136 24.0604136,31 15.5,31 L15.5,31 C6.93958638,31 1.04834831e-15,24.0604136 0,15.5 L0,15.5 C-1.04834831e-15,6.93958638 6.93958638,1.57252247e-15 15.5,0 Z" id="Rectangle-13" fill="#45A3BB"></path>
+                    <g id="Group-11" transform="translate(8.500000, 9.000000)">
+                        <circle id="Oval" stroke="#061B52" stroke-width="1.4" cx="7" cy="2" r="2"></circle>
+                        <path d="M1.45524175,9.29662714 C1.75933888,10.0299883 2.2046911,10.6899725 2.75735931,11.2426407 C3.84314575,12.3284271 5.34314575,13 7,13 L7,13 C8.65685425,13 10.1568542,12.3284271 11.2426407,11.2426407 C11.7953089,10.6899725 12.2406611,10.0299883 12.5447583,9.29662714" id="Oval-Copy-33" stroke="#061B52" stroke-width="1.4"></path>
+                        <polygon id="Rectangle-12" fill="#061B52" points="10 8 14 8 14 12"></polygon>
+                        <polygon id="Rectangle-12-Copy-2" fill="#061B52" transform="translate(2.000000, 10.000000) scale(-1, 1) translate(-2.000000, -10.000000) " points="0 8 4 8 4 12"></polygon>
+                        <path d="M7,4.61111111 L7,12.5" id="Line-3" stroke="#061B52" stroke-width="1.4" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
