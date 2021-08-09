@@ -3,21 +3,21 @@
     "height": 26,
     "pixelRatio": 1,
     "width": 22,
-    "x": 26,
-    "y": 0
-  },
-  "fishing": {
-    "height": 22,
-    "pixelRatio": 1,
-    "width": 22,
     "x": 30,
     "y": 30
+  },
+  "fishing": {
+    "height": 30,
+    "pixelRatio": 1,
+    "width": 30,
+    "x": 0,
+    "y": 0
   },
   "loitering": {
     "height": 30,
     "pixelRatio": 1,
     "width": 26,
-    "x": 0,
+    "x": 30,
     "y": 0
   },
   "port": {

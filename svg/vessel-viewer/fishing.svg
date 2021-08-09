@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22">
-    <g fill="none" fill-rule="nonzero" transform="scale(2, 2)">
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+    <g fill="none" fill-rule="nonzero" transform="scale(2.75, 2.75)">
         <g transform="scale(0.45, 0.45) translate(-3.25, -3.25)">
             <g stroke="#163F89" stroke-width="1.4" transform="rotate(45 3.55 20.45) ">
                 <circle cx="1.5" cy="8.5" r="1.5"/>
