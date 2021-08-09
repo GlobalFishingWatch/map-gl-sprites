@@ -6,7 +6,8 @@
   "scripts": {
     "build:main": "spritezero ./out/sprites ./svg/main && spritezero ./out/sprites@2x ./svg/main --retina",
     "build:labeler": "spritezero --sdf ./out/sprites-labeler ./svg/labeler && spritezero --sdf ./out/sprites-labeler@2x ./svg/labeler --retina",
-    "build": "yarn build:main && yarn build:labeler",
+    "build:vessel-viewer": "spritezero ./out/vessel-viewer ./svg/vessel-viewer && spritezero ./out/vessel-viewer@2x ./svg/vessel-viewer --retina",
+    "build": "yarn build:main && yarn build:labeler && yarn build:vessel-viewer",
     "start": "live-server --no-browser --port=9091 --watch=demo"
   },
   "devDependencies": {
