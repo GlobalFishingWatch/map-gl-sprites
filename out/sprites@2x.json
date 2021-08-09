@@ -3,22 +3,22 @@
     "height": 26,
     "pixelRatio": 2,
     "width": 22,
-    "x": 118,
-    "y": 194
+    "x": 180,
+    "y": 132
   },
   "carrier_portal_loitering": {
     "height": 30,
     "pixelRatio": 2,
     "width": 26,
-    "x": 62,
-    "y": 194
+    "x": 124,
+    "y": 132
   },
   "carrier_portal_port": {
     "height": 30,
     "pixelRatio": 2,
     "width": 30,
-    "x": 88,
-    "y": 194
+    "x": 150,
+    "y": 132
   },
   "encounter": {
     "height": 62,
@@ -34,12 +34,19 @@
     "x": 0,
     "y": 0
   },
-  "gap": {
+  "fishing": {
     "height": 62,
     "pixelRatio": 2,
     "width": 62,
     "x": 194,
     "y": 0
+  },
+  "gap": {
+    "height": 62,
+    "pixelRatio": 2,
+    "width": 62,
+    "x": 132,
+    "y": 66
   },
   "gap_highlight": {
     "height": 66,
@@ -48,12 +55,19 @@
     "x": 66,
     "y": 0
   },
+  "loitering": {
+    "height": 62,
+    "pixelRatio": 2,
+    "width": 62,
+    "x": 194,
+    "y": 66
+  },
   "port": {
     "height": 62,
     "pixelRatio": 2,
     "width": 62,
-    "x": 132,
-    "y": 66
+    "x": 0,
+    "y": 132
   },
   "port_highlight": {
     "height": 66,
@@ -66,8 +80,8 @@
     "height": 62,
     "pixelRatio": 2,
     "width": 62,
-    "x": 194,
-    "y": 66
+    "x": 62,
+    "y": 132
   },
   "unregistered_highlight": {
     "height": 66,
@@ -75,40 +89,5 @@
     "width": 66,
     "x": 66,
     "y": 66
-  },
-  "vessel_viewer_encounter": {
-    "height": 62,
-    "pixelRatio": 2,
-    "width": 62,
-    "x": 0,
-    "y": 132
-  },
-  "vessel_viewer_fishing": {
-    "height": 62,
-    "pixelRatio": 2,
-    "width": 62,
-    "x": 62,
-    "y": 132
-  },
-  "vessel_viewer_gap": {
-    "height": 62,
-    "pixelRatio": 2,
-    "width": 62,
-    "x": 124,
-    "y": 132
-  },
-  "vessel_viewer_loitering": {
-    "height": 62,
-    "pixelRatio": 2,
-    "width": 62,
-    "x": 186,
-    "y": 132
-  },
-  "vessel_viewer_port": {
-    "height": 62,
-    "pixelRatio": 2,
-    "width": 62,
-    "x": 0,
-    "y": 194
   }
 }
