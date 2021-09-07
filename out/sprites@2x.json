@@ -1,23 +1,30 @@
 {
+  "arrow": {
+    "height": 36,
+    "pixelRatio": 2,
+    "width": 12,
+    "x": 0,
+    "y": 132
+  },
   "carrier_portal_encounter": {
     "height": 26,
     "pixelRatio": 2,
     "width": 22,
-    "x": 56,
+    "x": 68,
     "y": 132
   },
   "carrier_portal_loitering": {
     "height": 30,
     "pixelRatio": 2,
     "width": 26,
-    "x": 0,
+    "x": 12,
     "y": 132
   },
   "carrier_portal_port": {
     "height": 30,
     "pixelRatio": 2,
     "width": 30,
-    "x": 26,
+    "x": 38,
     "y": 132
   },
   "encounter": {
