@@ -1,4 +1,18 @@
 {
+  "arrow-inner": {
+    "height": 9,
+    "pixelRatio": 1,
+    "width": 9,
+    "x": 78,
+    "y": 0
+  },
+  "arrow-outer": {
+    "height": 22,
+    "pixelRatio": 1,
+    "width": 22,
+    "x": 56,
+    "y": 0
+  },
   "encounter": {
     "height": 26,
     "pixelRatio": 1,
