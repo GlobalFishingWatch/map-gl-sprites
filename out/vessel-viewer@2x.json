@@ -1,16 +1,16 @@
 {
   "arrow-inner": {
-    "height": 18,
+    "height": 22,
     "pixelRatio": 2,
-    "width": 18,
-    "x": 156,
+    "width": 22,
+    "x": 112,
     "y": 0
   },
   "arrow-outer": {
-    "height": 44,
+    "height": 22,
     "pixelRatio": 2,
-    "width": 44,
-    "x": 112,
+    "width": 22,
+    "x": 134,
     "y": 0
   },
   "encounter": {
