@@ -1,16 +1,23 @@
 {
-  "arrow-inner": {
+  "arrow": {
     "height": 22,
     "pixelRatio": 2,
     "width": 22,
     "x": 112,
     "y": 0
   },
-  "arrow-outer": {
+  "arrow-inner": {
     "height": 22,
     "pixelRatio": 2,
     "width": 22,
     "x": 134,
+    "y": 0
+  },
+  "arrow-outer": {
+    "height": 22,
+    "pixelRatio": 2,
+    "width": 22,
+    "x": 156,
     "y": 0
   },
   "encounter": {
