@@ -1,0 +1,4 @@
+<svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+  <path fill="#ff00ff"
+  d="M 0,0 h 10 v 10 h -10 v -10 z" />
+</svg>
