@@ -1,0 +1,34 @@
+{
+  "arrow": {
+    "height": 42,
+    "pixelRatio": 2,
+    "sdf": true,
+    "width": 18,
+    "x": 46,
+    "y": 0
+  },
+  "circle": {
+    "height": 46,
+    "pixelRatio": 2,
+    "sdf": true,
+    "width": 46,
+    "x": 0,
+    "y": 0
+  },
+  "rhombus": {
+    "height": 36,
+    "pixelRatio": 2,
+    "sdf": true,
+    "width": 36,
+    "x": 0,
+    "y": 46
+  },
+  "square": {
+    "height": 26,
+    "pixelRatio": 2,
+    "sdf": true,
+    "width": 26,
+    "x": 36,
+    "y": 46
+  }
+}
