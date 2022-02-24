@@ -1,42 +1,23 @@
 {
-  "arrow": {
-    "height": 42,
+  "encounter": {
+    "height": 24,
     "pixelRatio": 2,
-    "sdf": true,
-    "width": 18,
+    "width": 24,
     "x": 0,
     "y": 0
   },
-  "circle": {
-    "height": 26,
+  "loitering": {
+    "height": 24,
     "pixelRatio": 2,
-    "sdf": true,
-    "width": 26,
-    "x": 36,
-    "y": 42
+    "width": 24,
+    "x": 24,
+    "y": 0
   },
-  "rhombus": {
-    "height": 36,
+  "port": {
+    "height": 24,
     "pixelRatio": 2,
-    "sdf": true,
-    "width": 36,
+    "width": 24,
     "x": 0,
-    "y": 42
-  },
-  "rhombus-hollow": {
-    "height": 26,
-    "pixelRatio": 2,
-    "sdf": true,
-    "width": 26,
-    "x": 18,
-    "y": 0
-  },
-  "square": {
-    "height": 26,
-    "pixelRatio": 2,
-    "sdf": true,
-    "width": 26,
-    "x": 44,
-    "y": 0
+    "y": 24
   }
 }

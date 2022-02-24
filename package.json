@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build:map": "spritezero --sdf ./out/sprites-map ./svg/map && spritezero --sdf ./out/sprites-map@2x ./svg/map --retina",
+    "build:map": "spritezero ./out/sprites-map ./svg/map && spritezero ./out/sprites-map@2x ./svg/map --retina",
     "build:labeler": "spritezero --sdf ./out/sprites-labeler ./svg/labeler && spritezero --sdf ./out/sprites-labeler@2x ./svg/labeler --retina",
     "build:vessel-viewer": "spritezero ./out/vessel-viewer ./svg/vessel-viewer && spritezero ./out/vessel-viewer@2x ./svg/vessel-viewer --retina",
     "build": "yarn build:map && yarn build:labeler && yarn build:vessel-viewer",
