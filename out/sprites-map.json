@@ -23,12 +23,20 @@
     "x": 0,
     "y": 24
   },
-  "square": {
+  "rhombus-hollow": {
     "height": 16,
     "pixelRatio": 1,
     "sdf": true,
     "width": 16,
     "x": 12,
+    "y": 0
+  },
+  "square": {
+    "height": 16,
+    "pixelRatio": 1,
+    "sdf": true,
+    "width": 16,
+    "x": 28,
     "y": 0
   }
 }
