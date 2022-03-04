@@ -6,18 +6,39 @@
     "x": 0,
     "y": 0
   },
-  "loitering": {
+  "encounter-highlight": {
     "height": 12,
     "pixelRatio": 1,
     "width": 12,
     "x": 12,
     "y": 0
   },
-  "port": {
+  "loitering": {
     "height": 12,
     "pixelRatio": 1,
     "width": 12,
     "x": 0,
     "y": 12
+  },
+  "loitering-highlight": {
+    "height": 12,
+    "pixelRatio": 1,
+    "width": 12,
+    "x": 12,
+    "y": 12
+  },
+  "port": {
+    "height": 12,
+    "pixelRatio": 1,
+    "width": 12,
+    "x": 24,
+    "y": 0
+  },
+  "port-highlight": {
+    "height": 10,
+    "pixelRatio": 1,
+    "width": 10,
+    "x": 36,
+    "y": 0
   }
 }
