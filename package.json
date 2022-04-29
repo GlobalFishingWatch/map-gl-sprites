@@ -11,7 +11,8 @@
     "start": "live-server --no-browser --port=9091 --watch=demo"
   },
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "node-pre-gyp": "0.12.0"
   },
   "dependencies": {
     "@satellitestudio/spritezero-cli": "3.0.1"
