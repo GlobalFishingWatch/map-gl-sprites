@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>loitering-highlight</title>
-    <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="loitering-highlight" transform="translate(-1.000000, -1.000000)" fill="#FFFFFF" fill-rule="nonzero">
-            <polygon id="Rectangle-Copy-4" transform="translate(12.000000, 12.000000) rotate(45.000000) translate(-12.000000, -12.000000) " points="4.5 4.5 19.5 4.5 19.5 19.5 4.5 19.5"></polygon>
+        <g id="loitering" transform="translate(1.393398, 1.393398)" fill="#CFA9F9" fill-rule="nonzero" stroke="#FFFFFF">
+            <path d="M18.1066017,3.10660172 L18.1066017,18.1066017 L3.10660172,18.1066017 L3.10660172,3.10660172 L18.1066017,3.10660172 Z M15.1066017,6.10660172 L6.10660172,6.10660172 L6.10660172,15.1066017 L15.1066017,15.1066017 L15.1066017,6.10660172 Z" id="Combined-Shape-Copy-3" transform="translate(10.606602, 10.606602) rotate(45.000000) translate(-10.606602, -10.606602) "></path>
         </g>
     </g>
 </svg>

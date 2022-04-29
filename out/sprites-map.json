@@ -3,42 +3,42 @@
     "height": 22,
     "pixelRatio": 1,
     "width": 22,
-    "x": 0,
+    "x": 24,
     "y": 0
   },
   "encounter-highlight": {
     "height": 22,
     "pixelRatio": 1,
     "width": 22,
-    "x": 22,
-    "y": 0
+    "x": 0,
+    "y": 24
   },
   "loitering": {
     "height": 22,
     "pixelRatio": 1,
     "width": 22,
-    "x": 0,
-    "y": 22
+    "x": 22,
+    "y": 24
   },
   "loitering-highlight": {
-    "height": 22,
+    "height": 24,
     "pixelRatio": 1,
-    "width": 22,
-    "x": 22,
-    "y": 22
+    "width": 24,
+    "x": 0,
+    "y": 0
   },
   "port": {
     "height": 22,
     "pixelRatio": 1,
     "width": 22,
     "x": 44,
-    "y": 0
+    "y": 24
   },
   "port-highlight": {
     "height": 20,
     "pixelRatio": 1,
     "width": 20,
     "x": 66,
-    "y": 0
+    "y": 24
   }
 }
