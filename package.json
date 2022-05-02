@@ -16,5 +16,8 @@
   },
   "dependencies": {
     "@satellitestudio/spritezero-cli": "3.0.1"
+  },
+  "engines": {
+    "node": "^14"
   }
 }
